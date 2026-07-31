@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+.dice {
+  font-size: 80px;
+  margin: 20px;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #5fa8d3;
+  color: white;
+}
+
+#history {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.history-item {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
